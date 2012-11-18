@@ -1,6 +1,7 @@
+/// <reference path="../b2AABB.d.ts" />
 /// <reference path="../../Common/Math/b2Transform.d.ts" />
 
-import b2Math = Box2D.Common.Math;
+import math = Box2D.Common.Math;
 
 module Box2D.Collision.Shapes {
 	export class b2Shape {
@@ -25,17 +26,26 @@ module Box2D.Collision.Shapes {
 		// TODO
 		public TestPoint(xf, p): bool;
 		// TODO
-		public RayCast(output, input, transform: Common.Math.b2Transform): bool;
+		public RayCast(
+			output: b2RayCastOutput,
+			input: b2RayCastInput,
+			transform: math.b2Transform): bool;
 		// TODO
 		public ComputeAABB(aabb: b2AABB, xf): void;
 		// TODO
-		public ComputeMass(massData, density: number): void;
+		public ComputeMass(massData: b2MassData, density: number): void;
 		// TODO
-		public ComputeSubmergedArea(normal, offset, xf, c): number;
+		public ComputeSubmergedArea(
+			normal: unknown,
+			offset: unknown,
+			xf: unknown,
+			c: unknown): number;
 
 
-
-		// TODO
-		public static TestOverlap(shape1: b2Shape, transform1: b2Math.b2Transform, shape2: b2Shape, transform2: b2Math.b2Transform): bool;
+		public static TestOverlap(
+			shape1: b2Shape,
+			transform1: math.b2Transform,
+			shape2: b2Shape,
+			transform2: math.b2Transform): bool;
 	}
 }
