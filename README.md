@@ -1,4 +1,4 @@
-box2d2web.d.ts
+box2dweb.d.ts
 ===========
 
 This is a typescript definitions file for box2dweb.js.
