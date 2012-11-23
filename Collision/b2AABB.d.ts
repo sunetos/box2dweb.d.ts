@@ -6,7 +6,7 @@ module Box2D.Collision {
 	export class b2AABB {
 
 		public lowerBound: b2Math.b2Vec2;
-		public uppderBound: b2Math.b2Vec2;
+		public upperBound: b2Math.b2Vec2;
 
 		constructor ();
 
