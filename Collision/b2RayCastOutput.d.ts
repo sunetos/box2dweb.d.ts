@@ -3,12 +3,20 @@
 import b2Math = Box2D.Common.Math;
 
 module Box2D.Collision {
+
+	/**
+	* Results of a ray cast.
+	**/
 	export class b2RayCastOutput {
 
-		public normal: b2Math.b2Vec2;
+		/**
+		* The fraction between p1 and p2 that the collision occurs at.
+		**/
 		public fraction: number;
 
-		constructor ();
-	
+		/**
+		* The normal at the point of collision.
+		**/
+		public normal: b2Math.b2Vec2;	
 	}
 }
