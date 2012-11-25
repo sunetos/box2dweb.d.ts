@@ -28,7 +28,7 @@ module Box2D.Common.Math {
 		public Abs(): void;
 
 		/**
-		* Adds the two 2x2 matricies together.
+		* Adds the two 2x2 matricies together and stores the result in this matrix.
 		* @m 2x2 matrix to add.
 		**/
 		public AddM(m: b2Mat22): void;
