@@ -55,16 +55,17 @@ module Box2D.Collision {
 		/**
 		* Query an AABB for overlapping proxies. The callback is called for each proxy that overlaps the supplied AABB. The callback should match function signature fuction callback(proxy:b2DynamicTreeNode):Boolean and should return false to trigger premature termination.
 		* @callback Called for each proxy that overlaps the supplied AABB.
+		*	@proxy Proxy overlapping the supplied AABB.
 		* @aabb Proxies are query for overlap on this AABB.
 		**/
-		public Query(callback: (node: b2DynamicTreeNode) => bool, aabb: b2AABB): void;
+		public Query(callback: (proxy: b2DynamicTreeNode) => bool, aabb: b2AABB): void;
 
 		/**
 		* Ray-cast against the proxies in the tree. This relies on the callback to perform a exact ray-cast in the case were the proxy contains a shape. The callback also performs the any collision filtering. This has performance roughly equal to k log(n), where k is the number of collisions and n is the number of proxies in the tree.
 		* @callback Called for each proxy that is hit by the ray.
 		*	@input Ray cast input data.
 		*	@proxy The proxy hit by the ray cast.
-		*	@return Collision filtering.  (values??)
+		*	@return Return value is the new value for maxFraction.
 		* @input Ray cast input data.  Query all proxies along this ray cast.
 		**/
 		public RayCast(callback: (input: b2RayCastInput, proxy: b2DynamicTreeNode) => number, input: b2RayCastInput): void;
