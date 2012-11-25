@@ -6,7 +6,7 @@
 module Box2D.Collision {
 
 	/**
-	* 
+	* A line in space between two given vertices.
 	**/
 	export class b2Segment {
 
