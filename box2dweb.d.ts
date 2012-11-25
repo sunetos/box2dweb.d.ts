@@ -25,6 +25,36 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+/// <reference path="Common/b2Color.d.ts" />
+/// <reference path="Common/b2Settings.d.ts" />
+/// <reference path="Common/Math/b2Mat22.d.ts" />
+/// <reference path="Common/Math/b2Mat33.d.ts" />
+/// <reference path="Common/Math/b2Math.d.ts" />
+/// <reference path="Common/Math/b2Sweep.d.ts" />
+/// <reference path="Common/Math/b2Transform.d.ts" />
+/// <reference path="Common/Math/b2Vec2.d.ts" />
+/// <reference path="Common/Math/b2Vec3.d.ts" />
+
+/// <reference path="Collision/b2AABB.d.ts" />
+/// <reference path="Collision/b2ContactID.d.ts" />
+/// <reference path="Collision/b2ContactPoint.d.ts" />
+/// <reference path="Collision/b2DistanceInput.d.ts" />
+/// <reference path="Collision/b2DistanceOutput.d.ts" />
+/// <reference path="Collision/b2DistanceProxy.d.ts" />
+/// <reference path="Collision/b2DynamicTree.d.ts" />
+/// <reference path="Collision/b2DynamicTreeBroadPhase.d.ts" />
+/// <reference path="Collision/b2DynamicTreeNode.d.ts" />
+/// <reference path="Collision/b2Manifold.d.ts" />
+/// <reference path="Collision/b2ManifoldPoint.d.ts" />
+/// <reference path="Collision/b2OBB.d.ts" />
+/// <reference path="Collision/b2RayCastInput.d.ts" />
+/// <reference path="Collision/b2RayCastOutput.d.ts" />
+/// <reference path="Collision/b2Segment.d.ts" />
+/// <reference path="Collision/b2SimplexCache.d.ts" />
+/// <reference path="Collision/b2TOIInput.d.ts" />
+/// <reference path="Collision/b2WorldManifold.d.ts" />
+/// <reference path="Collision/Features.d.ts" />
+
 module Box2D {
 
 }
