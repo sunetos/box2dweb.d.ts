@@ -54,6 +54,11 @@
 /// <reference path="Collision/b2TOIInput.d.ts" />
 /// <reference path="Collision/b2WorldManifold.d.ts" />
 /// <reference path="Collision/Features.d.ts" />
+/// <reference path="Collision/Shapes/b2CircleShape.d.ts" />
+/// <reference path="Collision/Shapes/b2EdgeChainDef.d.ts" />
+/// <reference path="Collision/Shapes/b2EdgeShape.d.ts" />
+/// <reference path="Collision/Shapes/b2MassData.d.ts" />
+/// <reference path="Collision/Shapes/b2Shape.d.ts" />
 
 module Box2D {
 
