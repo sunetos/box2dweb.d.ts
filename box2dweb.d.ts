@@ -1,5 +1,14 @@
+//     box2dweb-2.1.d.ts
+//     Copyright (c) 2012 Josh Baldwin http://github.com/jbaldwin
+//     There are a few competing javascript Box2D ports.
+//     This definitions file is for Box2dWeb.js ->
+//         http://code.google.com/p/box2dweb/
+//     For all details and documentation:
+//     https://github.com/jbaldwin/box2d.d.ts
+
 /*
-* Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
+* Box2DWeb.d.ts Copyright (c) 2012 Josh Baldwin http://github.com/jbaldwin
+* Box2D C++ Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
 *
 * This software is provided 'as-is', without any express or implied
 * warranty.  In no event will the authors be held liable for any damages
@@ -15,14 +24,6 @@
 * misrepresented as being the original software.
 * 3. This notice may not be removed or altered from any source distribution.
 */
-
-//     box2dweb-2.1.d.ts
-//     2012 Josh Baldwin
-//     There are a few competing javascript box2d ports.
-//     This definitions file is for box2dweb ->
-//         http://code.google.com/p/box2dweb/
-//     For all details and documentation:
-//     https://github.com/jbaldwin/box2d.d.ts
 
 module Box2D {
 
