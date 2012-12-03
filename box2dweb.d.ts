@@ -25,8 +25,10 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+/// <reference path="Common/init.d.ts" />
 /// <reference path="Common/b2Color.d.ts" />
 /// <reference path="Common/b2Settings.d.ts" />
+/// <reference path="Common/Math/init.d.ts" />
 /// <reference path="Common/Math/b2Mat22.d.ts" />
 /// <reference path="Common/Math/b2Mat33.d.ts" />
 /// <reference path="Common/Math/b2Math.d.ts" />
@@ -35,6 +37,8 @@
 /// <reference path="Common/Math/b2Vec2.d.ts" />
 /// <reference path="Common/Math/b2Vec3.d.ts" />
 
+/// <reference path="Collision/init.d.ts" />
+/// <reference path="Collision/IBroadPhase.d.ts" />
 /// <reference path="Collision/b2AABB.d.ts" />
 /// <reference path="Collision/b2ContactID.d.ts" />
 /// <reference path="Collision/b2ContactPoint.d.ts" />
@@ -54,11 +58,27 @@
 /// <reference path="Collision/b2TOIInput.d.ts" />
 /// <reference path="Collision/b2WorldManifold.d.ts" />
 /// <reference path="Collision/Features.d.ts" />
+/// <reference path="Collision/Shapes/init.d.ts" />
 /// <reference path="Collision/Shapes/b2CircleShape.d.ts" />
 /// <reference path="Collision/Shapes/b2EdgeChainDef.d.ts" />
 /// <reference path="Collision/Shapes/b2EdgeShape.d.ts" />
 /// <reference path="Collision/Shapes/b2MassData.d.ts" />
+/// <reference path="Collision/Shapes/b2PolygonShape.d.ts" />
 /// <reference path="Collision/Shapes/b2Shape.d.ts" />
+
+/// <reference path="Dynamics/init.d.ts" />
+/// <reference path="Dynamics/b2Body.d.ts" />
+/// <reference path="Dynamics/b2BodyDef.d.ts" />
+/// <reference path="Dynamics/b2DebugDraw.d.ts" />
+/// <reference path="Dynamics/b2Fixture.d.ts" />
+/// <reference path="Dynamics/b2FixtureDef.d.ts" />
+/// <reference path="Dynamics/b2World.d.ts" />
+/// <reference path="Dynamics/Contacts/b2ContactEdge.d.ts" />
+/// <reference path="Dynamics/Controllers/b2Controller.d.ts" />
+/// <reference path="Dynamics/Controllers/b2ControllerEdge.d.ts" />
+/// <reference path="Dynamics/Joints/b2Joint.d.ts" />
+/// <reference path="Dynamics/Joints/b2JointDef.d.ts" />
+/// <reference path="Dynamics/Joints/b2JointEdge.d.ts" />
 
 module Box2D {
 

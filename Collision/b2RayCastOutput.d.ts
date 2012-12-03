@@ -1,7 +1,5 @@
 /// <reference path="../Common/Math/b2Vec2.d.ts" />
 
-import b2Math = Box2D.Common.Math;
-
 module Box2D.Collision {
 
 	/**
@@ -17,6 +15,6 @@ module Box2D.Collision {
 		/**
 		* The normal at the point of collision.
 		**/
-		public normal: b2Math.b2Vec2;	
+		public normal: b2Math.b2Vec2;
 	}
 }

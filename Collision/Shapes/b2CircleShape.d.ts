@@ -16,7 +16,7 @@ module Box2D.Collision.Shapes {
 		/**
 		* Creates a new circle shape.
 		**/
-		constructor ();
+		constructor (radius?:number);
 
 		/**
 		* Given a transform, compute the associated axis aligned bounding box for this shape.

@@ -1,13 +1,14 @@
 /// <reference path="b2AABB.d.ts" />
 /// <reference path="b2DynamicTreeNode.d.ts" />
 /// <reference path="b2RayCastInput.d.ts" />
+/// <reference path="IBroadPhase.d.ts" />
 
 module Box2D.Collision {
 
 	/**
 	* The broad-phase is used for computing pairs and performing volume queries and ray casts. This broad-phase does not persist pairs. Instead, this reports potentially new pairs. It is up to the client to consume the new pairs and to track subsequent overlap.
 	**/
-	export class b2DynamicTreeBroadPhase {
+	export class b2DynamicTreeBroadPhase implements IBroadPhase {
 
 		/**
 		* Creates the dynamic tree broad phase.

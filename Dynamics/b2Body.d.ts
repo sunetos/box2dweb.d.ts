@@ -10,9 +10,6 @@
 /// <reference path="Controllers/b2ControllerEdge.d.ts" />
 /// <reference path="Joints/b2JointEdge.d.ts" />
 
-//import b2Math = Box2D.Common.Math;
-import b2Shapes = Box2D.Collision.Shapes;
-
 module Box2D.Dynamics {
 
 	/**
